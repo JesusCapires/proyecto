@@ -11,6 +11,7 @@ const openModal = (accion, id) => {
 
     switch (accion) {
         case 1:
+            console.log(id);
             titulo = (id !== 0) ? 'Actualizar producto' : 'Crear producto';
             estructura = `
                 <form id="formularioProducto" action="#" autocomplete="off">

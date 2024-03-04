@@ -128,7 +128,7 @@ const validaProducto = (id) => {
                     }
                     else{
                         console.log(id_producto);
-                        if (id_producto !== '0') {
+                        if (id !== 0) {
                             console.log('Registro existente');
                             $('#producto' + id_producto).text(sku);
                             $('#descripcion' + id_producto).text(descripcion);
